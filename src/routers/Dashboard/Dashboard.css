@@ -1,0 +1,60 @@
+* {
+  text-align: center;
+}
+
+.mainContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-auto-rows: 1fr;
+  gap: 1.5rem;
+  justify-content: center;
+}
+
+@media screen and (max-width: 950px) {
+  .mainContainer {
+    grid-template-columns: auto;
+  }
+}
+
+.row {
+  width: 45vw;
+}
+
+@media screen and (max-width: 950px) {
+  .row {
+    width: 90vw;
+  }
+}
+
+.tableTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+  border: #ffffff 2px solid;
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin-bottom: 5px;
+  text-align: left;
+}
+
+.MuiTableContainer-root {
+  height: 27.5vh;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: #000000 2px solid;
+  border-radius: 10px;
+  padding: 2px 10px;
+  margin: 5px 5px 0px 5px;
+  text-align: left;
+}
+
+.containerSearchBar {
+  padding: 10px;
+}
+
+.searchBar {
+  text-align-last: left;
+}

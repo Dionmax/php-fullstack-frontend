@@ -1,0 +1,33 @@
+.project-presentation h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.project-presentation h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.project-presentation p {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+.project-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.project-link {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color: #1d99db;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+.project-link:hover {
+    color: #023e8a;
+}
