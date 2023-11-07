@@ -20,12 +20,12 @@ const MultipleWinnersList = () => {
 
   const columns = useMemo(
     () => [
-      { id: "id", label: "Id", minWidth: 50 },
-      { id: "year", label: t("home.year"), minWidth: 50 },
-      { id: "title", label: t("home.title"), minWidth: 50 },
-      { id: "studios", label: t("home.studios"), minWidth: 50 },
-      { id: "producer", label: t("home.producer"), minWidth: 50 },
-      { id: "winner", label: t("home.winner"), minWidth: 50 },
+      { id: "id", label: "Id" },
+      { id: "year", label: t("home.year") },
+      { id: "title", label: t("home.title") },
+      { id: "studios", label: t("home.studios") },
+      { id: "producers", label: t("home.producers") },
+      { id: "winner", label: t("home.winner") },
     ],
     [t]
   );
@@ -111,6 +111,8 @@ const MultipleWinnersList = () => {
                       <TableCell key={column.id} align={column.align}>
                         {column.format && typeof value === "number"
                           ? column.format(value)
+                          : column.id === "winner" && value === true
+                          ? "Yes"
                           : value}
                       </TableCell>
                     );

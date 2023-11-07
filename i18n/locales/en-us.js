@@ -30,6 +30,7 @@ export default {
       min: "Minimun",
       listMovieByYear: "List of film winners by year",
       search: "Search",
+      producers: "Producers",
     },
   },
 };
