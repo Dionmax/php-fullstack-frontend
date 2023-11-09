@@ -7,7 +7,7 @@ const Navbar = () => {
   const { t } = useTranslation();
 
   return (
-    <nav className="navbar">
+    <nav id="navbar" data-testid="navbar" className="navbar">
       <h2>
         <Link to={`/`}>
           <p>{t("home.home")}</p>

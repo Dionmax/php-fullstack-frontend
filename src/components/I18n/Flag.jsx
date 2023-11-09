@@ -2,6 +2,8 @@ import PropTypes from 'prop-types';
 
 const Flag = ({ image, isSelected, ...props }) => (
   <img
+    id="flag"
+    data-testid="flag"
     alt="flag"
     src={image}
     className={isSelected ? "flag selected" : "flag"}

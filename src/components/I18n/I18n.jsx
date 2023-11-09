@@ -11,7 +11,7 @@ const I18n = () => {
 
   const selectedLanguage = i18n.language;
   return (
-    <div className="flags-container">
+    <div className="flags-container" data-testid="flags-container">
       <Flag
         image={BrasilFlag}
         isSelected={selectedLanguage === "pt-BR"}

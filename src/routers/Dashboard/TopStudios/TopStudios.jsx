@@ -64,7 +64,7 @@ const MultipleWinnersList = () => {
   return (
     <>
       <h1 className="tableTitle">{t("home.topStudios")}</h1>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} data-testid="topStudiosTable">
         <Table aria-label="simple table">
           <TableHead>
             <TableRow>

@@ -7,7 +7,7 @@ import "./Dashboard.css";
 
 const Dashboard = () => {
   return (
-    <div className="mainContainer">
+    <div className="mainContainer" data-testid="dashboard">
       <div className="row">
         <MultipleWinnersList />
       </div>
