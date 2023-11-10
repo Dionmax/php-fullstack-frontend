@@ -10,4 +10,4 @@ Currently, two official plugins are available:
 
 To start the application, run `npm run dev` in the project folder.
 
-To run the tests: ``yarn test` in the project folder.
+To run the tests: `yarn test` in the project folder.
